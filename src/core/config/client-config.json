@@ -1,0 +1,100 @@
+{
+  "gameName": "Hide and Seek",
+  "welcomeMsg": "Welcome to Hide and Seek... do not leave you will join in the next round",
+  "playerLeftMsg": "... has left",
+  "theme": {
+    "fontFamily": "Times New Roman",
+    "titleFontColor": "#C4A43C",
+    "formColor": "#fff",
+    "formFontColor": "white",
+    "formButtonColor": "#A82F1E",
+    "overlayColor": "rgba(0,0,0, 0.9)",
+    "fontSize": 2,
+    "logo": "https://cdn.glitch.com/59d07c72-3229-4e84-9625-70aebd646220%2FScreen%20Shot%202019-10-30%20at%208.27.07%20AM.png?v=1576677526218"
+  },
+  "avatar": {
+    "models": [
+      {
+        "type": 1,
+        "url": "https://cdn.glitch.com/7001d18b-ab06-4934-84ee-f9bc0645e42c%2Fchip_eyes_pack.glb?1553596528401",
+        "thumbnail": "https://cdn.glitch.com/fec96da0-7526-4b9a-aecf-3abbbe7fcdc5%2Fchip.png?v=1567384714024",
+        "name": "Seeker",
+        "scale": 0.75,
+        "yOffset": 0.1,
+        "animations": {
+          "idle": "idle",
+          "walk": "walk"
+        },
+        "msg": {
+          "color": "orange",
+          "offset": "0 4 0"
+        }
+      },
+      {
+        "type": 1,
+        "url": "https://cdn.glitch.com/fec96da0-7526-4b9a-aecf-3abbbe7fcdc5%2Fmel.glb?v=1567388543651",
+        "thumbnail": "https://cdn.glitch.com/fec96da0-7526-4b9a-aecf-3abbbe7fcdc5%2Fmel.png?v=1567389128396",
+        "name": "Hider",
+        "scale": 0.75,
+        "yOffset": 0.1,
+        "animations": {
+          "idle": "idle",
+          "walk": "walk"
+        },
+        "msg": {
+          "color": "orange",
+          "offset": "0 4 0"
+        }
+      },
+      {
+        "type": 2,
+        "url": "https://cdn.glitch.com/984a335f-9425-469e-8978-85c88c06d624%2Fboz_head.glb?v=1566741683664",
+        "lefthand": "https://cdn.glitch.com/984a335f-9425-469e-8978-85c88c06d624%2Fboz_lefthand.glb?v=1566749593952",
+        "righthand": "https://cdn.glitch.com/984a335f-9425-469e-8978-85c88c06d624%2Fboz_righthand.glb?v=1566749593705",
+        "thumbnail": "https://cdn.glitch.com/fec96da0-7526-4b9a-aecf-3abbbe7fcdc5%2Fvr.png?v=1567383953311",
+        "name": "VR-1",
+        "scale": 1,
+        "yOffset": 0,
+        "animations": {
+          "idle": "idle",
+          "walk": "walk"
+        },
+        "msg": {
+          "color": "orange",
+          "offset": "0 1.75 0"
+        }
+      }
+    ]
+  },
+  "sounds": {
+    "playerJoined": {
+      "url": "https://cdn.glitch.com/c6f972e4-0e71-47c3-85c6-30f0ce9dcba1%2Fthunder.mp3?v=1562601088647"
+    },
+    "playerLeft": {
+      "url": "https://cdn.glitch.com/c6f972e4-0e71-47c3-85c6-30f0ce9dcba1%2Fthunder.mp3?v=1562601088647"
+    },
+    "jump":{
+      "url":"https://cdn.glitch.com/83b7f985-f6ce-40dd-ac98-772aff98ebbf%2Fwoosh.mp3?v=1559499927954"
+    },
+    "land":{
+      "url":"https://cdn.glitch.com/826d99b1-f98c-4ee8-bbe5-abdd27784a77%2Fland.mp3?v=1575809351148"
+    }
+  },
+  "bgm": {
+    "songs": [326404324],
+    "volume": 0.2,
+    "playAll": true,
+    "initialDelay": 5000
+  },
+  "voice": {
+    "name": "Google UK English Female",
+    "rate": 0.9,
+    "pitch": 1,
+    "volume": 1,
+    "welcomeDelay": 4000
+  },
+  "vrui": {
+    "scale": 1.0,
+    "offset": "0 0.3 0"
+  }
+}
